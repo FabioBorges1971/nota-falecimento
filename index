@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Obituário — Steve Jobs</title>
+  <style>
+    body {
+      margin: 0;
+      background: #e9e4d8;
+      font-family: "Times New Roman", Georgia, serif;
+      color: #111;
+    }
+
+    .pagina {
+      max-width: 900px;
+      margin: 30px auto;
+      background: #fdfbf5;
+      border: 1px solid #c9c1af;
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+      padding: 40px 50px 50px;
+    }
+
+    .jornal {
+      text-align: center;
+      border-bottom: 3px double #222;
+      padding-bottom: 18px;
+      margin-bottom: 28px;
+    }
+
+    .jornal .nome-jornal {
+      font-size: 0.95rem;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      margin-bottom: 8px;
+    }
+
+    .jornal .edicao {
+      font-size: 0.9rem;
+      color: #444;
+      margin-bottom: 10px;
+    }
+
+    .jornal h1 {
+      margin: 0;
+      font-size: 3rem;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      line-height: 1.1;
+    }
+
+    .subtitulo {
+      text-align: center;
+      font-size: 1.15rem;
+      font-style: italic;
+      color: #333;
+      margin: 16px auto 28px;
+      max-width: 700px;
+    }
+
+    .cabecalho-obito {
+      text-align: center;
+      border-top: 1px solid #777;
+      border-bottom: 1px solid #777;
+      padding: 14px 0;
+      margin-bottom: 30px;
+    }
+
+    .cabecalho-obito .nome {
+      font-size: 2.2rem;
+      font-weight: bold;
+      margin-bottom: 6px;
+    }
+
+    .cabecalho-obito .datas {
+      font-size: 1rem;
+      letter-spacing: 1px;
+      color: #444;
+    }
+
+    .conteudo {
+      column-count: 2;
+      column-gap: 42px;
+      text-align: justify;
+      font-size: 1.1rem;
+      line-height: 1.75;
+    }
+
+    .conteudo p {
+      margin-top: 0;
+      margin-bottom: 18px;
+    }
+
+    .conteudo p::first-letter {
+      float: left;
+      font-size: 3.2rem;
+      line-height: 0.9;
+      padding-right: 8px;
+      font-weight: bold;
+    }
+
+    .citacao {
+      break-inside: avoid;
+      border-left: 4px solid #999;
+      padding-left: 14px;
+      font-style: italic;
+      color: #222;
+      margin: 10px 0 20px;
+    }
+
+    .rodape {
+      margin-top: 35px;
+      border-top: 3px double #222;
+      padding-top: 14px;
+      text-align: center;
+      font-size: 0.95rem;
+      color: #555;
+    }
+
+    @media (max-width: 700px) {
+      .pagina {
+        padding: 28px 22px 35px;
+        margin: 15px;
+      }
+
+      .jornal h1 {
+        font-size: 2rem;
+      }
+
+      .cabecalho-obito .nome {
+        font-size: 1.6rem;
+      }
+
+      .conteudo {
+        column-count: 1;
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="pagina">
+    <header class="jornal">
+      <div class="nome-jornal">Edição Especial</div>
+      <div class="edicao">Obituário • Tecnologia • Inovação</div>
+      <h1>Nota de Falecimento</h1>
+    </header>
+
+    <div class="subtitulo">
+      Um tributo em estilo jornalístico à memória de um dos nomes mais influentes da tecnologia contemporânea.
+    </div>
+
+    <section class="cabecalho-obito">
+      <div class="nome">Steve Jobs</div>
+      <div class="datas">24 DE FEVEREIRO DE 1955 — 5 DE OUTUBRO DE 2011</div>
+    </section>
+
+    <section class="conteudo">
+      <p>
+        Faleceu Steve Jobs, empresário, inventor e uma das personalidades mais marcantes da história recente da tecnologia. Sua trajetória foi construída com visão, ousadia e uma capacidade incomum de antecipar mudanças que redefiniram a relação entre pessoas e dispositivos digitais.
+      </p>
+
+      <p>
+        Ao longo de sua carreira, Jobs tornou-se símbolo de inovação ao liderar projetos que ajudaram a transformar a computação pessoal, a música digital, a telefonia móvel e o entretenimento. Seu nome passou a ser associado à ideia de simplicidade aliada à sofisticação.
+      </p>
+
+      <div class="citacao">
+        “Pensar diferente” tornou-se mais do que um slogan: converteu-se em marca de uma geração influenciada por sua visão de mundo.
+      </div>
+
+      <p>
+        Seu legado ultrapassa os produtos que ajudou a criar. Ele influenciou designers, desenvolvedores, empreendedores e milhões de usuários ao redor do planeta, mostrando que tecnologia também pode ser elegância, experiência e emoção.
+      </p>
+
+      <p>
+        Mesmo diante de desafios pessoais e profissionais, Steve Jobs manteve uma postura determinada, guiada por exigência extrema com qualidade e por uma crença constante de que grandes ideias devem ser entregues de forma acessível e memorável.
+      </p>
+
+      <p>
+        Esta homenagem em formato de obituário reconhece não apenas o executivo e criador, mas também a figura histórica que contribuiu para moldar a cultura digital do século XXI. Sua ausência é sentida, mas sua influência permanece viva no cotidiano de incontáveis pessoas.
+      </p>
+
+      <p>
+        A memória de Steve Jobs segue preservada em sua obra, em seu impacto sobre a indústria e na inspiração que continua despertando em todos aqueles que acreditam no poder das ideias para transformar o mundo.
+      </p>
+    </section>
+
+    <footer class="rodape">
+      Obituário ilustrativo em HTML • Modelo fictício de página com visual de jornal
+    </footer>
+  </main>
+</body>
+</html>
